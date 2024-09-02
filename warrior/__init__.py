@@ -24,7 +24,7 @@ logging.basicConfig(level=logging.INFO, handlers=[logging.FileHandler('logs.txt'
               logging.StreamHandler()], format=FORMAT)
 
 
-API_ID = os.getenv("24074986")
+API_KEY = os.getenv("24074986")
 API_HASH = os.getenv("f4f6272a85d0e50e39a24cb378be118d")
 TOKEN = os.getenv("7017047992:AAFdn36ey8whO8Cz1t-2K7_tIUWPwcK0oZk")
 GROUP_ID = os.getenv("-1002147169639")
@@ -33,7 +33,7 @@ GROUP_ID = os.getenv("-1002147169639")
 
 bot = Client(
        name="warrior",
-       api_id=API_ID,
+       api_id=API_KEY,
        api_hash=API_HASH,
        bot_token=TOKEN,
        plugins=dict(root="warrior"),)
