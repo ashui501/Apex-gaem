@@ -12,7 +12,7 @@ prefix = [".","!","?","*","$","#","/"]
 
 
 #mongo database 
-MONGODB_URL = "mongodb+srv://nandhaxd:rw5T7YJRjsE3fmk3@cluster0.80igexg.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_URL = "mongodb+srv://tiwarireeta004:peqxLEd36RAg7ors@cluster0.furypd3.mongodb.net/?retryWrites=true&w=majority"
 MONGO = MongoClient(MONGODB_URL)
 DATABASE = MONGO.WARRIOR
 
@@ -24,10 +24,10 @@ logging.basicConfig(level=logging.INFO, handlers=[logging.FileHandler('logs.txt'
               logging.StreamHandler()], format=FORMAT)
 
 
-API_ID = os.getenv("API_ID")
-API_HASH = os.getenv("API_HASH")
-TOKEN = os.getenv("TOKEN")
-GROUP_ID = os.getenv("GROUP_ID")
+API_ID = os.getenv("24074986")
+API_HASH = os.getenv("f4f6272a85d0e50e39a24cb378be118d")
+TOKEN = os.getenv("7017047992:AAFdn36ey8whO8Cz1t-2K7_tIUWPwcK0oZk")
+GROUP_ID = os.getenv("-1002147169639")
 
 
 
